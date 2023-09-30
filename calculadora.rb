@@ -1,11 +1,14 @@
 loop do
+  puts "--------------"
   puts 'Selecione uma opção:'
   puts '1- Soma.'
   puts '2- Subtração.'
   puts '3- Multiplicação.'
   puts '4- Divisão.'
   puts '0- Sair.'
+  puts "--------------"
   print 'Digite sua escolha: '
+  
   
   opcao = gets.chomp.to_i
 
@@ -15,29 +18,29 @@ loop do
         num1 = gets.chomp.to_i
         print "Digite o segundo número: "
         num2 = gets.chomp.to_i
-        puts ""
+        puts "--------------"
         puts "Soma"
         puts "Resultado = #{num1 + num2}"        
-        puts ""
+        puts "--------------"
     when opcao = 2
         print "Digite o primeiro número: "
         num1 = gets.chomp.to_i
         print "Digite o segundo número: "
         num2 = gets.chomp.to_i
-        puts ""
+        puts "--------------"
         puts "Subtração"
         puts "Resultado = #{num1 - num2}"
-        puts ""
+        puts "--------------"
 
     when opcao = 3
         print "Digite o primeiro número: "
         num1 = gets.chomp.to_i
         print "Digite o segundo número: "
         num2 = gets.chomp.to_i
-        puts ""
+        puts "--------------"
         puts "Multiplicação"
         puts "Resultado = #{num1 * num2}"       
-        puts ""
+        puts "--------------"
 
     when opcao = 4
         print "Digite o primeiro número: "
@@ -50,9 +53,10 @@ loop do
             puts " "
             opcao = 0
         else
+            puts "--------------"
             puts "Divisão"
             puts "Resultado = #{(num1 / num2)}"  
-            puts " "
+            puts "--------------"
         end
 
     when opcao = 0 

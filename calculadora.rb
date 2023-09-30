@@ -7,8 +7,7 @@ loop do
   puts '4- Divisão.'
   puts '0- Sair.'
   puts "--------------"
-  print 'Digite sua escolha: '
-  
+  print 'Digite sua escolha: '  
   
   opcao = gets.chomp.to_i
 

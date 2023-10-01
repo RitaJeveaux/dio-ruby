@@ -18,3 +18,9 @@ Criar Calculadora com menu
 Criar um array vazio, para que o usuário insira 3 números e no
 final apareça o resultado desses 3 números elevados a 3ª
 potência.
+
+## CPF 
+Criar um programa na linguagem Ruby utilizando uma gem específica.
+Criar um programa de consulta ao CPF do usuário. Seu código
+precisa utilizar uma biblioteca especial para saber se os
+números que o usuário digitou são de um CPF verdadeiro.
